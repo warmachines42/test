@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>1부터 10까지</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
     <style>
 
         li {
@@ -35,7 +38,7 @@
     <li class="even">6</li>
     <li class="odd">7</li>
     <li class="even">8</li>
-    <li class="odd" id="last">9</li>
+    <li class="odd">9</li>
     <li class="even" id="last">10</li>
 </ul>
 
@@ -43,6 +46,9 @@
 
 <script>
     var lastObj = document.getElementById( "last" );
-    document.write( "Last value = ", lastObj.innerHTML )
+    document.write( "Last value = ", lastObj.innerHTML );
+
+    var lastObj = $( "#last" ) ; 
+    document.write( "Last value = ", lastObj.html() );
 </script>
 </html>
