@@ -1,178 +1,113 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>자기소개</title>
+</head>
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-	<head>
-		<title>Enterprise Linux</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-		<style type="text/css">
-			/*<![CDATA[*/
-			body {
-				background-color: #fff;
-				color: #000;
-				font-size: 1.1em;
-				font-family: "Red Hat Text", Helvetica, Tahoma, sans-serif;
-				margin: 0;
-				padding: 0;
-                border-bottom: 30px solid black;
-				min-height: 100vh;
-				box-sizing: border-box;
-			}
-			:link {
-				color: #c00;
-			}
-			:visited {
-				color: #c00;
-			}
-			a:hover {
-				color: #f50;
-			}
-			h1 {
-				text-align: left;
-				margin: 0;
-				margin-bottom: .6em;
-				padding: 1em 2em 1.5em 2em;
-				background-color: black;
-				color: #fff;
-				font-weight: normal;
-				font-size: 2.5em;
-				border-bottom: 2px solid #000;
-			}
-            h1 img {
-                border: none;
-                margin-bottom: .4em;
-            }
-			h1 strong {
-				font-weight: bold;
-			}
-			h2 {
-				font-size: 1.1em;
-				font-weight: bold;
-			}
-			hr {
-				display: none;
-			}
-			.content {
-				padding: 1em 5em;
-			}
-			.content-columns {
-				/* Setting relative positioning allows for 
-				absolute positioning for sub-classes */
-				position: relative;
-				padding-top: 1em;
-                display: flex;
-				flex-wrap: wrap;
-			}
-			.content-column-left {
-				/* Value for IE/Win; will be overwritten for other browsers */
-				width: 47%;
-				padding: 15px 30px;
-				margin-right: 30px;
-				padding-bottom: 2em;	
-				margin-bottom: 1em;
-				flex: 1;
-			}
-			.content-column-left hr {
-				display: none;
-			}
-			.content-column-right {
-				/* Values for IE/Win; will be overwritten for other browsers */
-				width: 47%;
-				padding: 15px 30px;
-				padding-bottom: 2em;
-                margin-right: 30px;
-				margin-bottom: 1em;
-				flex: 1;
-			}
-			.content-columns>.content-column-left, .content-columns>.content-column-right {
-				/* Non-IE/Win */
-                border: 1px solid #d2d2d2;
-				border-radius: 3px;
-				box-sizing: border-box;
-			}
-			.logos {
-				text-align: left;
-				margin-top: 2em;
-			}
-            .logos a img {
-                padding-right: 1.5em;
-                margin-right: 1.5em;
-                border-right: 1px solid #d2d2d2;
-            }
-			img {
-				border: 2px solid #fff;
-				padding: 2px;
-				margin: 2px;
-			}
-			a:hover img {
-				border: 2px solid #f50;
-			}
-			.footer {
-			    font-size: xx-small;
-                padding: 0 10em;
-			    padding-bottom: 5em;
-			}
+<body>
 
-            /* Responsive layout */
-            @media (max-width: 800px) {
-                .content-column-right, .content-column-left {
-                flex: 100%;
-                }
-            }
-			/*]]>*/
-		</style>
-	</head>
+<h1 align="center">이 력 서</h1>
 
-	<body>
-		<h1>
-            <img src="system_noindex_logo.png" alt="Red Hat Logo" /><br />
-            허찬영 Linux <strong>Test Page</strong>
-        </h1>
+<table border="1" width="800" align="center"
+       cellpadding="10" cellspacing="0">
 
-		<div class="content">
-			<div class="content-middle">
-				<p>if you can read this page, it means that the HTTP server installed at this site is working properly.</p>
-			</div>
-			<hr />
+    <!-- 기본정보 -->
+    <tr>
+        <td rowspan="4" width="150" align="center">
+            <img src="profile.jpg" width="120" height="150">
+        </td>
 
-			<div class="content-columns">
-				<div class="content-column-left">
-					<h2>If you are a member of the general public:</h2>
+        <td align="center">이름</td>
+        <td>홍길동</td>
 
-					<p>The fact that you are seeing this page indicates that the website you just visited is either experiencing problems, or is undergoing routine maintenance.</p>
+        <td align="center">생년월일</td>
+        <td>2000.00.00</td>
+    </tr>
 
-					<p>If you would like to let the administrators of this website know that you've seen this page instead of the page you expected, you should send them e-mail. In general, mail sent to the name "webmaster" and directed to the website's domain should reach the appropriate person.</p>
+    <tr>
+        <td align="center">학교</td>
+        <td>○○대학교</td>
 
-					<p>For information on Red Hat Enterprise Linux, please visit the <a href="http://www.redhat.com/">Red Hat, Inc. website</a>. The documentation for Red Hat Enterprise Linux is <a href="http://www.redhat.com/docs/manuals/enterprise/">available on the Red Hat, Inc. website</a>.</p>
-					<hr />
-				</div>
+        <td align="center">전공</td>
+        <td>○○과</td>
+    </tr>
 
-				<div class="content-column-right">
-					<h2>If you are the website administrator:</h2>
+    <tr>
+        <td align="center">전화번호</td>
+        <td>010-0000-0000</td>
 
-					<p>You may now add content to the webroot directory. Note
-					that until you do so, people visiting your website will see
-					this page, and not your content.</p>
+        <td align="center">이메일</td>
+        <td>www@www.com</td>
+    </tr>
 
-					<p>For systems using the Apache HTTP Server:
-					You may now add content to the directory <tt>/var/www/html/</tt>. Note that until you do so, people visiting your website will see this page, and not your content. To prevent this page from ever being used, follow the instructions in the file <tt>/etc/httpd/conf.d/welcome.conf</tt>.</p>
+    <tr>
+        <td align="center">주소</td>
+        <td colspan="3">○○도 ○○시</td>
+    </tr>
 
-					<p>For systems using NGINX:
-					You should now put your content in a location of your
-					choice and edit the <code>root</code> configuration directive
-					in the <strong>nginx</strong> configuration file
-					<code>/etc/nginx/nginx.conf</code>.</p>
 
-					<div class="logos">
-						<a href="https://access.redhat.com/products/red-hat-enterprise-linux"><img src= "/icons/poweredby.png" alt="[ Powered by Red Hat Enterprise Linux ]" /></a>
-						<img src= "poweredby.png" alt="[ Powered by Red Hat Enterprise Linux ]" />
-					</div>
-				</div>
-			</div>
-		</div>
-	<div class="footer">
-		<a href="https://apache.org">Apache&trade;</a> is a registered trademark of <a href="https://apache.org">the Apache Software Foundation</a> in the United States and/or other countries.
-        <br />
-		<a href="https://nginx.com">NGINX&trade;</a> is a registered trademark of <a href="https://www.f5.com">F5 Networks, Inc.</a>.
-	</div>
-	</body>
+    <!-- 학력 -->
+    <tr>
+        <th rowspan="3">학력</th>
+        <th>기간</th>
+        <th colspan="2">학교</th>
+        <th>상태</th>
+    </tr>
+
+    <tr>
+        <td>2016.03 ~ 2019.02</td>
+        <td colspan="2">○○고등학교</td>
+        <td>졸업</td>
+    </tr>
+
+    <tr>
+        <td>2019.03 ~ 2026.08</td>
+        <td colspan="2">안양대학교 정보전기전자공학부</td>
+        <td>졸업</td>
+    </tr>
+
+
+    <!-- 경력 / 경험 -->
+    <tr>
+        <th rowspan="3">경험</th>
+        <th>기간</th>
+        <th colspan="2">내용</th>
+        <th>비고</th>
+    </tr>
+
+    <tr>
+        <td>2021.05 ~ 2023.02</td>
+        <td colspan="2">공군 ○○ 업무</td>
+        <td>군복무</td>
+    </tr>
+
+    <tr>
+        <td>2025</td>
+        <td colspan="2">캡스톤디자인 - ○○</td>
+        <td>우수상</td>
+    </tr>
+
+
+    <!-- 보유 기술 -->
+    <tr>
+        <th>보유 기술</th>
+        <td colspan="4">
+            Linux / HTML 
+        </td>
+    </tr>
+
+
+    <!-- 자기소개 -->
+    <tr>
+        <th>자기소개</th>
+        <td colspan="4" height="150">
+            안녕하세요. 저는 ○○○입니다. 저는 ○○대학교 ○○과를 나왔습니다. 군대는 공군을 나왔고 캡스톤 ○○로 우수상을 받았습니다. 리눅스와 html을 공부중입니다.
+        </td>
+    </tr>
+
+</table>
+
+</body>
 </html>
+
