@@ -48,7 +48,24 @@
     var lastObj = document.getElementById( "last" );
     document.write( "Last value = ", lastObj.innerHTML );
 
+    document.write( "<br/>" )
+
     var lastObj = $( "#last" ) ; 
     document.write( "Last value = ", lastObj.html() );
+
+    //var evenList = document.getElementsByClassName( "even" )
+    var evenList = $( ".even" )
+
+    var sum = 0;
+
+    evenList.each(function () {
+        sum += Number(this.innerHTML);
+    });
+
+    document.write( "<br/>" )
+
+    document.write("합계 = " + sum);
+
+
 </script>
 </html>
