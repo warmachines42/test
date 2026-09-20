@@ -42,7 +42,7 @@
     <li class="even" id="last">10</li>
 </ul>
 
-<input type="button" value="Hello" />
+<input type="button" value="Hello" onclick="changeEvenColor()" />
 
 <br/>
 
@@ -70,7 +70,9 @@
 
     document.write("합계 = " + sum);
 
-    $(".even").css("color", "green");
+    function changeEvenColor() { 
+        $(".even").css("color", "green");
+    }
 
 </script>
 </html>
